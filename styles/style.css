@@ -3,11 +3,7 @@
 }
 
 p {
-    background-color: green;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    
+    text-align: center;    
 }
 
 a {
@@ -27,8 +23,6 @@ nav img {
     height: 20px;
     width: 20px;
 }
-
-/* le header met les images à 100px --> corriger */
 
 .titre-site {
     display: flex;
@@ -133,4 +127,19 @@ footer {
     font-size: 1.2em;
     text-decoration: underline;
     font-weight: bold;
+}
+
+.cta {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.section-centree {
+    text-align: center;
 }

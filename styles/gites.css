@@ -1,0 +1,13 @@
+table {
+    align-content: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table img {
+    height: 250px;
+}
+td, th {
+    text-align: center;
+    border: solid black;
+}

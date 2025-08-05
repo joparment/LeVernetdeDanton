@@ -8,9 +8,11 @@ h1, h2 {
     position: relative;
     margin: auto;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.slide {
+.slide, .slide2 {
     display: none;
 }
 
@@ -34,6 +36,10 @@ h1, h2 {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
 }
 
 .prev:hover, .next:hover {
@@ -64,7 +70,7 @@ h1, h2 {
     font-size: 1.2em;
 }
 
-.dot {
+.dot, .dot2 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -80,7 +86,8 @@ h1, h2 {
 }
 
 .slide-container img {
-    width: 1000px;
+    max-width: 1000px;
+    max-height: 667px;
 }
 
 .fade {

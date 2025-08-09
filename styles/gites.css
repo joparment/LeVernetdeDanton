@@ -3,8 +3,7 @@ main h1, main h2 {
     padding-bottom: 20px;
 }
 
-.slide-container {
-    max-width: 1000px;
+.slide-amandiers, .slide-tilleul {
     position: relative;
     margin: auto;
     margin-bottom: 10px;
@@ -14,6 +13,12 @@ main h1, main h2 {
 
 .slide, .slide2 {
     display: none;
+    position: relative;
+}
+
+.slide img, .slide2 img {
+    max-width: 1000px;
+    max-height: 667px;
 }
 
 .prev, .next {
@@ -85,11 +90,6 @@ main h1, main h2 {
   background-color: #717171;
 }
 
-.slide-container img {
-    max-width: 1000px;
-    max-height: 667px;
-}
-
 .fade {
   animation-name: fade;
   animation-duration: 1s;
@@ -121,3 +121,19 @@ td, th {
 
 }
 
+.section-amandiers {
+  background-image: url(../images/Amandiers/amandiers-fond.avif);
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.section-tilleul {
+  background-image: url(../images/Tilleul/tilleul-fond.avif);
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}

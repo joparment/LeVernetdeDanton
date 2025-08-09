@@ -5,7 +5,7 @@
     <meta charset="utf-8" >
     <title>Réservation - Le Vernet de Danton</title>
     <link href="styles/style.css" rel="stylesheet" >
-    <link href="styles/index.css" rel="stylesheet" >
+    <link href="styles/contact.css" rel="stylesheet" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
@@ -39,7 +39,119 @@
     <main>
         <section>
 
+            <section>
+
             <h1>Réservation</h1>
+            
+
+            <div class="contact-container">
+
+                Les réservations sont possibles sur :
+                <div class="form-lignes">
+                    <div class="sites">
+
+                        <img src="images/Logo GDF.png" alt="Gîtes de France">
+
+                        <div class="nom-gites">
+                            <a href="https://www.gites-de-france.com/fr/auvergne-rhone-alpes/ardeche/les-amandiers-07g233701">
+                            Les Amandiers
+                            </a>
+                            <a href="https://www.gites-de-france.com/fr/auvergne-rhone-alpes/ardeche/le-tilleul-07g233700">
+                            Le Tilleul
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="sites">
+
+                        <img src="images/logo airbnb.png" alt="airbnb">
+
+                        <div class="nom-gites">
+                            <a href="https://www.airbnb.fr/rooms/49139675?adults=1&search_mode=regular_search&check_in=2025-09-14&check_out=2025-09-19&children=0&infants=0&pets=0&source_impression_id=p3_1754652619_P30LKtg1ZqRyrV4z&previous_page_section_name=1000&federated_search_id=ada82605-9590-4f82-bdb8-05ec978f1539">
+                            Les Amandiers
+                            </a>
+                            <a href="https://www.airbnb.fr/rooms/915016001978421711?adults=1&search_mode=regular_search&check_in=2025-09-13&check_out=2025-09-18&children=0&infants=0&pets=0&source_impression_id=p3_1754652619_P3_nDz6fp0wtQxBP&previous_page_section_name=1000&federated_search_id=ada82605-9590-4f82-bdb8-05ec978f1539">
+                            Le Tilleul
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            
+
+                
+                Ou par mail :
+                    
+                    <form class="form-global">
+                        <div class="form-lignes">
+                            <div class="form-colonne">
+                                <label for="nom">Nom</label>
+                                <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                            </div>
+                            <div class="form-colonne">
+                                <label for="prénom">Prénom</label>
+                                <input type="text" id="prénom" name="prénom" placeholder="Votre prénom">
+                            </div>
+                        </div>
+                        <div class="form-colonne">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Votre adresse mail">
+                        </div>
+                        <div class="form-colonne">
+                            <div>Dates de séjour souhaitées</div>
+                            <div class="form-lignes">
+                                <label for="du">Du</label>
+                                <input type="date" id="du" name="du">
+                                <label for="au">Au</label>
+                                <input type="date" id="au" name="au">
+                            </div>
+                        </div>
+                        <div class="form-lignes">
+                            <div class="form-colonne">
+                                <label for="gite">Gîte</label>
+                                <select name="gite" id="gite">
+                                    <option value="Les Amandiers">Les Amandiers</option>
+                                    <option value="Le Tilleul">Le Tilleul</option>
+                                    <option value="Les deux gîtes">Les deux gîtes</option>
+                                </select>
+                            </div>
+                            <div class="form-colonne">
+                                <label for="nbpersonnes">Nombre de personnes</label>
+                                <select name="nbpersonnes" id="nbpersonnes">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-colonne">
+                            <label for="texte">Précisions</label>
+                            <textarea id="texte" name="texte" placeholder="Précisez votre demande (horaires d'arrivée et de départ, animaux,...)"></textarea>
+                        </div>
+
+                        <button class="boutonEnvoyerMail">Envoyer</button>
+                    </form>
+            </div>
+
+        </section>
+
+        <section>
+           
+        </section>
+                  
+        <section>
+
+        </section>
+
+
             
         </section>
 

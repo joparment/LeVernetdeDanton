@@ -1,12 +1,20 @@
-main h1, main h2 {
+main h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+main h2 {
     text-align: center;
     padding-bottom: 20px;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px black;
 }
 
 .slide-amandiers, .slide-tilleul {
     position: relative;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -19,6 +27,7 @@ main h1, main h2 {
 .slide img, .slide2 img {
     max-width: 1000px;
     max-height: 667px;
+    border: solid white 5px;
 }
 
 .prev, .next {
@@ -39,12 +48,12 @@ main h1, main h2 {
 }
 
 .next {
-  right: 0;
+  right: 5px;
   border-radius: 3px 0 0 3px;
 }
 
 .prev {
-    left: 0;
+    left: 5px;
 }
 
 .prev:hover, .next:hover {
@@ -80,14 +89,14 @@ main h1, main h2 {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: black;
 }
 
 .fade {
@@ -122,7 +131,7 @@ td, th {
 }
 
 .section-amandiers {
-  background-image: url(../images/Amandiers/amandiers-fond.avif);
+  background-image: url(../images/Amandiers/amandiers-fond.png);
   background-position-y: center;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -131,7 +140,7 @@ td, th {
 }
 
 .section-tilleul {
-  background-image: url(../images/Tilleul/tilleul-fond.avif);
+  background-image: url(../images/Tilleul/tilleul-fond.png);
   background-position-y: center;
   background-position-x: center;
   background-repeat: no-repeat;

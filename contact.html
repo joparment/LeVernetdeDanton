@@ -39,15 +39,11 @@
 
     <main>
         <section>
-
-            <section>
-
             <h1>Réservation</h1>
             
-
             <div class="contact-container">
 
-                Les réservations sont possibles sur :
+                Réservez dès maintenant sur :
                 <div class="form-lignes">
                     <div class="sites">
 
@@ -79,25 +75,52 @@
 
                     </div>
                 </div>
-            
 
-                
-                Ou par mail :
-                    
-                    <form class="form-global">
+                Ou contactez nous pour plus d'infos :
+            
+                <div class="form-container">
+                                         
+                    <form class="form-rens" id="formRens">
+
+                        <div class="form-radio">
+                            <input type="radio" name="form-type" id="renseignements" value="renseignements" checked>
+                            <label for="renseignements">Renseignements</label>
+                            <input type="radio" name="form-type" id="reservation" value="reservation">
+                            <label for="reservation">Réservation</label>
+                        </div>
+
                         <div class="form-lignes">
                             <div class="form-colonne">
-                                <label for="nom">Nom</label>
-                                <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                                <label for="nom">Nom*</label>
+                                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
                             </div>
                             <div class="form-colonne">
-                                <label for="prénom">Prénom</label>
-                                <input type="text" id="prenom" name="prénom" placeholder="Votre prénom">
+                                <label for="prénom">Prénom*</label>
+                                <input type="text" id="prenom" name="prénom" placeholder="Votre prénom" required>
                             </div>
                         </div>
                         <div class="form-colonne">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Votre adresse mail">
+                            <label for="message">Votre message</label>
+                            <textarea id="message" name="message" placeholder="Que souhaitez-vous nous demander ?"></textarea>
+                        </div>
+
+                        <button id="boutonEnvoyerMail">Envoyer</button>
+                    </form>
+
+                    <form class="form-resa" id="formResa">
+                        <div class="form-lignes">
+                            <div class="form-colonne">
+                                <label for="nom">Nom*</label>
+                                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                            </div>
+                            <div class="form-colonne">
+                                <label for="prénom">Prénom*</label>
+                                <input type="text" id="prenom" name="prénom" placeholder="Votre prénom" required>
+                            </div>
+                        </div>
+                        <div class="form-colonne">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" placeholder="Votre adresse mail" required>
                         </div>
                         <div class="form-colonne">
                             <div>Dates de séjour souhaitées</div>
@@ -134,12 +157,13 @@
                             </div>
                         </div>
                         <div class="form-colonne">
-                            <label for="texte">Précisions</label>
-                            <textarea id="texte" name="texte" placeholder="Précisez votre demande (horaires d'arrivée et de départ, animaux,...)"></textarea>
+                            <label for="precisions">Précisions</label>
+                            <textarea id="precisions" name="precisions" placeholder="Précisez votre demande (horaires d'arrivée et de départ, animaux,...)"></textarea>
                         </div>
 
                         <button id="boutonEnvoyerMail">Envoyer</button>
                     </form>
+                </div>
             </div>
 
         </section>

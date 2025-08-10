@@ -24,16 +24,22 @@ nav img {
     width: 20px;
 }
 
+.titre-container {
+    display: flex;
+    justify-content: left;
+}
+
+
 .titre-site {
     display: flex;
     flex-direction: row;
-    margin: auto;
     align-items: center;
     justify-content: center;
     color: black;
     gap: 20px;
-    padding: 20px;
-    width: 28%;
+    padding: 10px;
+    margin: 20px;
+    height: 80%;
     border-radius: 20px;
     border: solid black;
     background-color: rgba(255, 255, 255, 0.5);

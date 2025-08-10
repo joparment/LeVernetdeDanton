@@ -1,15 +1,35 @@
+let boutonsRadio = document.querySelectorAll(".form-radio input")
+
 let formResa = document.getElementById("formResa")
-formResa.addEventListener("submit", event => {
+let formRens = document.getElementById("formRens")
+
+formResa.style.display = "none"
+
+console.log(boutonsRadio.length)
+
+for (let index = 0; index < boutonsRadio.length; index++) {
+    boutonsRadio[index].addEventListener("change", (event) => {
+        if (event.target.value === "renseignements") {
+            formResa.style.display = "none";
+            formRens.style.display = "flex";
+        }
+        else {
+            formRens.style.display = "none";
+            formResa.style.display = "flex";
+        }
+    })
+}
+
+formResa.addEventListener("submit", (event) => {
     event.preventDefault()
     gererFormulaireResa()
 })
 
-let formRens = document.getElementById("formRens")
-formRens.addEventListener("submit", event => {
+
+formRens.addEventListener("submit", (event) => {
     event.preventDefault()
     gererFormulaireRens()
 })
-
 
 function gererFormulaireResa () {
     let baliseNom = document.getElementById("nom")

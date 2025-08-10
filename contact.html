@@ -15,17 +15,18 @@
 
 <body>
     <header>
-        <div class="titre-site">
-            <div class="logo">
-            <img src="images/donkey.png" alt="logo âne">
-            </div>
+        <div class="titre-container">
+            <div class="titre-site">
+                <div class="logo">
+                <img src="images/donkey.png" alt="logo âne">
+                </div>
 
-            <div>
-            <h1>Le Vernet de Danton</h1>
-            <h2>Gîte rural au coeur de l'Ardèche</h2>
+                <div>
+                <h1>Le Vernet de Danton</h1>
+                <h2>Gîte rural au coeur de l'Ardèche</h2>
+                </div>
             </div>
         </div>
-
         <nav>   
             <a href="index.html"><img src="images/home.png" alt="Accueil"></a>
             <a href="presentation.html">Vos hôtes</a>
@@ -33,8 +34,6 @@
             <a href="activites.html">Activités locales</a>
             <a href="contact.html">Contact/Réservation</a>
         </nav>
-
-       
     </header>
 
     <main>
@@ -50,10 +49,10 @@
                         <img src="images/Logo GDF.png" alt="Gîtes de France">
 
                         <div class="nom-gites">
-                            <a href="https://www.gites-de-france.com/fr/auvergne-rhone-alpes/ardeche/les-amandiers-07g233701">
+                            <a target="_blank" href="https://www.gites-de-france.com/fr/auvergne-rhone-alpes/ardeche/les-amandiers-07g233701">
                             Les Amandiers
                             </a>
-                            <a href="https://www.gites-de-france.com/fr/auvergne-rhone-alpes/ardeche/le-tilleul-07g233700">
+                            <a target="_blank" href="https://www.gites-de-france.com/fr/auvergne-rhone-alpes/ardeche/le-tilleul-07g233700">
                             Le Tilleul
                             </a>
                         </div>
@@ -65,10 +64,10 @@
                         <img src="images/logo airbnb.png" alt="airbnb">
 
                         <div class="nom-gites">
-                            <a href="https://www.airbnb.fr/rooms/49139675?adults=1&search_mode=regular_search&check_in=2025-09-14&check_out=2025-09-19&children=0&infants=0&pets=0&source_impression_id=p3_1754652619_P30LKtg1ZqRyrV4z&previous_page_section_name=1000&federated_search_id=ada82605-9590-4f82-bdb8-05ec978f1539">
+                            <a target="_blank" href="https://www.airbnb.fr/rooms/49139675?adults=1&search_mode=regular_search&check_in=2025-09-14&check_out=2025-09-19&children=0&infants=0&pets=0&source_impression_id=p3_1754652619_P30LKtg1ZqRyrV4z&previous_page_section_name=1000&federated_search_id=ada82605-9590-4f82-bdb8-05ec978f1539">
                             Les Amandiers
                             </a>
-                            <a href="https://www.airbnb.fr/rooms/915016001978421711?adults=1&search_mode=regular_search&check_in=2025-09-13&check_out=2025-09-18&children=0&infants=0&pets=0&source_impression_id=p3_1754652619_P3_nDz6fp0wtQxBP&previous_page_section_name=1000&federated_search_id=ada82605-9590-4f82-bdb8-05ec978f1539">
+                            <a target="_blank" href="https://www.airbnb.fr/rooms/915016001978421711?adults=1&search_mode=regular_search&check_in=2025-09-13&check_out=2025-09-18&children=0&infants=0&pets=0&source_impression_id=p3_1754652619_P3_nDz6fp0wtQxBP&previous_page_section_name=1000&federated_search_id=ada82605-9590-4f82-bdb8-05ec978f1539">
                             Le Tilleul
                             </a>
                         </div>
@@ -79,15 +78,15 @@
                 Ou contactez nous pour plus d'infos :
             
                 <div class="form-container">
-                                         
-                    <form class="form-rens" id="formRens">
 
-                        <div class="form-radio">
-                            <input type="radio" name="form-type" id="renseignements" value="renseignements" checked>
-                            <label for="renseignements">Renseignements</label>
-                            <input type="radio" name="form-type" id="reservation" value="reservation">
-                            <label for="reservation">Réservation</label>
-                        </div>
+                    <div class="form-radio">
+                        <input type="radio" name="form-type" id="renseignements" value="renseignements" checked>
+                        <label for="renseignements">Renseignements</label>
+                        <input type="radio" name="form-type" id="reservation" value="reservation">
+                        <label for="reservation">Réservation</label>
+                    </div>
+                                         
+                    <form class="form-rens" id="formRens">                      
 
                         <div class="form-lignes">
                             <div class="form-colonne">
@@ -107,7 +106,9 @@
                         <button id="boutonEnvoyerMail">Envoyer</button>
                     </form>
 
+
                     <form class="form-resa" id="formResa">
+                       
                         <div class="form-lignes">
                             <div class="form-colonne">
                                 <label for="nom">Nom*</label>
@@ -167,28 +168,7 @@
             </div>
 
         </section>
-
-        <section>
            
-        </section>
-                  
-        <section>
-
-        </section>
-
-
-            
-        </section>
-
-        <section>
-           
-        </section>
-                  
-        <section>
-
-        </section>
-
-
     </main>
     <footer>
 

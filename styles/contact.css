@@ -1,9 +1,47 @@
+em {
+    display: inline;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.page-resa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.avis {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avis a img {
+    max-width: 80%;
+    border: solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.avis a img:hover {
+    border: solid grey;
+    box-shadow: 2px 2px 4px grey;
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin: 20px;
 }
 
 .sites {
@@ -40,13 +78,17 @@ main h1 {
     padding-bottom: 10px;
 }
 
+main h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
 .form-rens, .form-resa {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 100%;
     background-color: rgba(217, 207, 202);
     padding: 10px;
     border-bottom-left-radius: 20px;
@@ -80,7 +122,6 @@ main h1 {
     gap: 10px; 
     padding: 10px;
     border-bottom: solid black 1px;
-    width: 100%;
     background-color: rgba(217, 207, 202);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;

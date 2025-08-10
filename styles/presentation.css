@@ -22,3 +22,32 @@ main h1 {
     gap: 10px;
 }
 
+.description-hote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hote-airbnb, .hote-GDF {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 20px;
+    box-shadow: 2px 2px 4px black;
+    margin-bottom: 5px;
+}
+
+.hote-airbnb {
+    margin-top: 20px;
+}
+
+.description-hote a {
+    text-decoration: underline;
+    color: black;
+}

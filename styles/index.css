@@ -13,7 +13,6 @@ h1 {
     align-items: center;
     margin: 20px 50px 20px 50px;
     gap: 50px;
-    
 }
 
 .accueil-container img {
@@ -49,6 +48,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-style: italic;
 }
 
 em {
@@ -56,4 +56,15 @@ em {
     font-style: normal;
     font-weight: bold;
     text-align: right;
+}
+
+.map {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img {
+    width: 1500px;
 }

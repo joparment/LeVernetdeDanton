@@ -32,26 +32,24 @@
         <nav>   
             <a href="index.html"><img src="images/home.png" alt="Accueil"></a>
             <a href="presentation.html">Vos hôtes</a>
-            <a href="gites.html">Nos gites</a>
+            <div class="nav-gites">
+                <a href="gites.html">Nos gites</a>
+                <div class="nav-deroulant">
+                    <a href="gites.html#amandiers">Les Amandiers</a>
+                    <a href="gites.html#tilleul">Le Tilleul</a>
+                </div>
+            </div>
             <a href="activites.html">Activités locales</a>
             <a href="contact.html">Contact/Réservation</a>
-        </nav>
+        </nav>  
     </header>
-
     <main>
-        
-
-            <h1>Nos gîtes</h1>
-
-
+        <h1>Nos gîtes</h1>
         <section class="section-amandiers" id="amandiers">
-
             <div>
             <h2>Les Amandiers</h2>
             </div>
-
             <div class="slide-amandiers">
-
                 <div class="slide fade">
                     <div class="slide-number">1/10</div>
                     <img src="images/Amandiers/2.jpg" alt="">
@@ -59,7 +57,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
                 <div class="slide fade">
                     <div class="slide-number">2/10</div>
                     <img src="images/Amandiers/1.jpg" alt="">
@@ -67,7 +64,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
                 <div class="slide fade">
                     <div class="slide-number">3/10</div>
                     <img src="images/Amandiers/3.jpg" alt="">
@@ -75,7 +71,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
                 <div class="slide fade">
                     <div class="slide-number">4/10</div>
                     <img src="images/Amandiers/4.jpg" alt="">
@@ -83,7 +78,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
                 <div class="slide fade">
                     <div class="slide-number">5/10</div>
                     <img src="images/Amandiers/5.jpg" alt="">
@@ -91,7 +85,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
                 <div class="slide fade">
                     <div class="slide-number">6/10</div>
                     <img src="images/Amandiers/6.jpg" alt="">
@@ -99,7 +92,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
                 <div class="slide fade">
                     <div class="slide-number">7/10</div>
                     <img src="images/Amandiers/7.jpg" alt="">
@@ -107,7 +99,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
                 <div class="slide fade">
                     <div class="slide-number">8/10</div>
                     <img src="images/Amandiers/8.jpg" alt="">
@@ -115,7 +106,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
                 <div class="slide fade">
                     <div class="slide-number">9/10</div>
                     <img src="images/Amandiers/9.jpg" alt="">
@@ -123,7 +113,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
                 <div class="slide fade">
                     <div class="slide-number">10/10</div>
                     <img src="images/Amandiers/10.jpg" alt="">
@@ -131,9 +120,16 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-                
-            </div>
-        
+                <div class="description-amandiers">
+                    <h3>Description</h3><br>
+                    Dans un environnement paisible et verdoyant, niché sur le relief Ardéchois, le gîte <em>Les Amandiers</em> est l'endroit parfait pour un séjour ressourçant. 
+                    <br>Depuis la terrasse du gîte, vous ne pouvez qu'être émerveillé par la <em>vue dégagée</em> sur cette nature préservée.
+                    Depuis la route, un chemin enherbé vous mène jusqu'au gîte. Devant se trouve un espace jardin, ainsi que l'agréable <em>terrasse aménagée.</em>
+                    <br>Vous allez adorer vous relaxer dans ce décor de carte postale. <br><br>L'hébergement est aménagé sur 2 niveaux. Au rez-de-chaussé, une pièce de vie avec cuisine équipée, 
+                    salle à manger et salon.<br>Un bel escalier en bois permet d'accéder à l'étage où sont aménagées <em>deux chambres</em> : l'une équipée d'un lit 180 cm et l'autre avec deux lits 90 cm 
+                    (modulables en un lit 180 cm). Deux salles d'eau, au rez-de-chaussé et à l'étage, complètent le bien.
+                </div>
+            </div>        
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
@@ -172,10 +168,17 @@
             <a class="cta" href="contact.html" title="Réservez les Amandiers">Réservez votre séjour aux Amandiers</a>
         </section>
         <section class="section-tilleul" id="tilleul">
-
             <h2>Le Tilleul</h2>
             <div class="slide-tilleul">
-
+                <div class="description-tilleul">
+                    <h3>Description</h3><br>
+                    Le gîte <em>Le Tilleul</em> offre une vue panoramique impressionannte sur la forêt Ardèchoise, sans vis-à-vis avec l'autre gîte ni l'habitation des propriétaires, chacun bénéficie de son
+                    espace privé. L'accès est indépendant via un chemin privé.<br>Profitez des <em>deux terrasses aménagées</em> (couverte et non couverte) qu'offrent le gîte pour vous détendre à toute heure de la journée.
+                    Une table de jardin, un salon de détente et un barbecue sont à votre disposition. <br><br>A l'intérieur, profitez d'une agréable pièce de vie, avec coin cuisine équipée, une grande table à manger 
+                    et un coin salon. Au rez-de-chaussé se trouve une <em>première chambre</em> équipée de 2 lits en 90 cm (modulable en un lit 180 cm), une salle d'eau avec douche à 
+                    l'italienne et des toilettes séparées. A l'étage, retrouvez un salon cosy et <em>deux autres chambres</em> : l'une 
+                    avec 2 lits 90 modulables, et l'autre avec un lit en 140, ainsi qu'une salle d'eau avec douche et un WC indépendant.
+                </div>
                 <div class="slide2 fade">
                     <div class="slide-number">1/12</div>
                     <img src="images/Tilleul/2.jpg" alt="">
@@ -183,7 +186,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">2/12</div>
                     <img src="images/Tilleul/1.jpg" alt="">
@@ -191,7 +193,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">3/12</div>
                     <img src="images/Tilleul/3.jpg" alt="">
@@ -199,7 +200,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">4/12</div>
                     <img src="images/Tilleul/4.jpg" alt="">
@@ -207,7 +207,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">5/12</div>
                     <img src="images/Tilleul/5.jpg" alt="">
@@ -215,7 +214,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">6/12</div>
                     <img src="images/Tilleul/6.jpg" alt="">
@@ -223,7 +221,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">7/12</div>
                     <img src="images/Tilleul/7.jpg" alt="">
@@ -231,7 +228,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">8/12</div>
                     <img src="images/Tilleul/8.jpg" alt="">
@@ -239,7 +235,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">9/12</div>
                     <img src="images/Tilleul/9.jpg" alt="">
@@ -247,7 +242,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">10/12</div>
                     <img src="images/Tilleul/10.jpg" alt="">
@@ -255,7 +249,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">11/12</div>
                     <img src="images/Tilleul/11.jpg" alt="">
@@ -263,7 +256,6 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
                 <div class="slide2 fade">
                     <div class="slide-number">12/12</div>
                     <img src="images/Tilleul/12.jpg" alt="">
@@ -271,9 +263,7 @@
                     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
                 </div>
-
             </div>
-
             <div style="text-align:center">
                 <span class="dot2" onclick="currentSlide2(1)"></span>
                 <span class="dot2" onclick="currentSlide2(2)"></span>
@@ -316,11 +306,8 @@
         </section>
     </main>
     <footer>
-
-        <div class="contact"> 
-            
+        <div class="contact">             
             <span>Contact</span>
-
             <div class="coordonnées">
                 <div class="align">
                     <img src="images/courrier.png" alt="logo courrier">
@@ -330,27 +317,18 @@
                     <img src="images/telephone.png" alt="logo téléphone">
                     06 00 00 00 00</div>
             </div>
-        </div>
-        
+        </div>        
         <div class="reseaux">
-
-            <span>Nos réseaux</span>
-            
+            <span>Nos réseaux</span>            
             <div class="liens">
-
                 <a target="_blank" href="https://www.instagram.com/levernetdedanton/" class="lien-icone">
                     <img src="images/instagram.png" alt="Logo Instagram" >
                 </a>
-
                 <a target="_blank" href="https://www.facebook.com/p/Le-Vernet-de-Danton-100047723086957/" class="lien-icone">
                     <img src="images/facebook.png" alt="Logo Instagram" >
                 </a>
-
             </div>
-
-
         </div>
     </footer>
 </body>
-
 </html>

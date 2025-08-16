@@ -1,0 +1,56 @@
+.activites-container-gauche, .activites-container-droite {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 20px;
+    border: solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.activites-container-droite {
+    justify-self: right;
+}
+
+.activites-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.activites-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activites-container-gauche img, .activites-container-droite img {
+    width: 50%;
+}
+
+.localisation, .trajet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+    font-size: 1.1em;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.cta {
+    margin-top: 20px;
+}
+
+main h3 {
+    font-style: italic;
+    font-weight: normal;
+}

@@ -54,3 +54,11 @@ main h3 {
     font-style: italic;
     font-weight: normal;
 }
+
+.type-activite {
+    background-color: green;
+    display: inline;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}

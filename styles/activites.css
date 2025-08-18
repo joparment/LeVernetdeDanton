@@ -44,9 +44,11 @@
 
 p {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .cta {
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 
@@ -55,10 +57,19 @@ main h3 {
     font-weight: normal;
 }
 
-.type-activite {
+.activites-titres {
     background-color: green;
-    display: inline;
-    padding: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     color: white;
+    width: 30%;
+    margin: auto;
+    position: sticky;
+}
+
+.activites-titres h2 {
+    padding: 10px;
+    border-right: solid white;
 }

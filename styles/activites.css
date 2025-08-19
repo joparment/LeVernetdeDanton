@@ -48,7 +48,6 @@ p {
 }
 
 .cta {
-    margin-bottom: 20px;
     margin-top: 20px;
 }
 
@@ -58,18 +57,37 @@ main h3 {
 }
 
 .activites-titres {
+    margin-top: 10px;
     background-color: green;
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     color: white;
-    width: 30%;
-    margin: auto;
     position: sticky;
+    top: 0;
 }
 
 .activites-titres h2 {
     padding: 10px;
     border-right: solid white;
+    font-weight: normal;
+}
+
+.titre-section {
+    display: block;
+    background-color: lightgray;
+    position: sticky;
+    top: 40px;
+    padding: 10px;
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.images-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

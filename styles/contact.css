@@ -15,14 +15,40 @@ main h2 {
 .reservation-section {
     display: flex;
     flex-direction: row;
-    background-color: rgba(217, 207, 202);
-    margin: auto;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
+    background-color: rgba(217, 207, 202);
+    padding: 50px;
 }
 
-.reservation-section img {
-    max-height: 100px;
+.avis-gdf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 20px;
+}
+
+.avis-airbnb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 20px;
+}
+
+.avis-airbnb img {
+    width: 175px;
+}
+
+.avis-bloc {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .bloc-site {
@@ -30,16 +56,17 @@ main h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 400px;
     gap: 20px;
+}
+
+.bloc-site img {
+    max-height: 100px;
 }
 
 .bloc-site#gdf {
     border-right: dashed black;
-    padding-right: 100px;
-}
 
-.bloc-site#airbnb {
-    padding-left: 100px;
 }
 
 .bloc-site h2 {
@@ -54,24 +81,19 @@ main h2 {
     gap: 20px;
 }
 
-.avis-et-form {
+.avis img {
+    max-height: 100px;
+}
+
+.form-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.avis {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    width: 50%;
-}
-
-.avis img {
-    max-height: 100px;
+.form-section img {
+    width: 500px;
 }
 
 .form-container {

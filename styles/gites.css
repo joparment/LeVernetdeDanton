@@ -144,7 +144,7 @@ td, th {
 }
 
 .section-tilleul {
-  background-image: url(../images/Tilleul/tilleul-fond.png);
+  background-image: url(../images/tilleul/tilleul-fond.png);
   background-position-y: center;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -167,7 +167,7 @@ td, th {
 }
 
 .description-tilleul {
-  border-image: url(../images/Tilleul/tilleul-fond\ originale.png);
+  border-image: url(../images/tilleul/tilleul-fond\ originale.png);
   border-image-width: 20px;
   border-image-slice: 80;
   border-image-outset: 10px;

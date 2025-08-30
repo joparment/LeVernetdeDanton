@@ -71,6 +71,7 @@ main h3 {
     padding: 10px;
     border-right: solid white;
     font-weight: normal;
+    cursor: pointer;
 }
 
 .titre-section {

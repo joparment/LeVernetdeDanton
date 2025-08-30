@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 2%;
 }
 
 .presentation-photo {
@@ -34,4 +34,12 @@ p {
     border-radius: 20px;
     padding: 20px;
     font-size: 1.2em;
+}
+
+p#droite, .presentation-photo#droite {
+    margin-right: 20px;
+}
+
+p#gauche, .presentation-photo#gauche {
+    margin-left: 20px;
 }
